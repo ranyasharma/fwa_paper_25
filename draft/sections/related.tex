@@ -1,0 +1,20 @@
+\section{Related Work} \label{sec:related_work}
+Numerous studies have explored the relationship between latency and throughput in network performance, 
+particularly in the context of wired networks. Padhye et al. demonstrated an inverse
+relationship  between throughput and latency for TCP connections, where congestion 
+control mechanisms ensure that higher latencies result in reduced throughput. This 
+model has been widely applied. 
+
+Recent work has been focused on satellite networks. Michel et al. conducted an 
+analysis of Starlink’s satellite internet performance, highlighting that Starlink can 
+achieve high throughput and low latency under ideal conditions, but latency under load
+is more variable. Their measurements showed that while Starlink's latency remains low
+for close destinations (approximately 20 ms), it can spike to several hundred milliseconds under load. 
+
+Kassem et al. further explored Starlink's performance using a browser-side measurement approach, 
+collecting data from Starlink and non-Starlink users across multiple regions. 
+Their findings revealed that while Starlink can provide high throughput, it also 
+suffers from significant packet loss, latency variability, and sensitivity to weather. 
+Notably, they observed that Starlink's bent-pipe architecture, where data travels from 
+the user device to the satellite and then back to earth, is a dominant source of latency.
+
